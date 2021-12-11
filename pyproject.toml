@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bot"
+version = "0.1.0"
+description = "poetry first project vk api"
+authors = ["Ivan Yastrebov <esim.i2p@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+youtube_dl = "^2021.6.6"
+scrapy-GUI = "^1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
